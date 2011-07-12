@@ -6,17 +6,15 @@ Gem::Specification.new do |s|
   s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author            = 'David Heinemeier Hansson'
-  # s.email             = 'david@loudthinking.com'
-  # s.homepage          = 'http://www.rubyonrails.org'
-  # s.rubyforge_project = 'actionmailer'
+  s.author            = 'Brian D. Quinn'
+  s.email             = 'brian@railsdog.com'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.has_rdoc = true
+  s.has_rdoc = false
 
-  #s.add_dependency('spree_core', '>= 0.60.99')
+  s.add_dependency('deface_editor', '>= 0.3.0')
 end

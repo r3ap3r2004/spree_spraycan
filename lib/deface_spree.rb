@@ -1,8 +1,8 @@
 require 'spree_core'
-require 'deface_spree_hooks'
 
 module DefaceSpree
   class Engine < Rails::Engine
+    engine_name ="deface_spree"
 
     config.autoload_paths += %W(#{config.root}/lib)
 
