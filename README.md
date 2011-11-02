@@ -1,5 +1,5 @@
-Deface Spree
-============
+Spree Spraycan
+==============
 
 This is a Spree extension that wraps [Spraycan](https://github.com/railsdog/spraycan) engine and customizes it for use with Spree.
 
