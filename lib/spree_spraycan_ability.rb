@@ -1,4 +1,4 @@
-class DefaceSpreeAbility
+class SpreeSpraycanAbility
 # stuff like class AbilityDecorator goes here
   include CanCan::Ability
 

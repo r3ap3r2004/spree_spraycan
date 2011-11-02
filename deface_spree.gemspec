@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'deface_spree'
+  s.name        = 'spree_spraycan'
   s.version     = '0.60.99'
   s.summary     = 'Add gem summary here'
   s.description = 'Add (optional) gem description here'
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = false
 
-  s.add_dependency('deface_editor', '>= 0.3.0')
+  s.add_dependency('spraycan', '>= 0.3.0')
 end
